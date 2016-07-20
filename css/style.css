@@ -1,0 +1,403 @@
+*{
+	padding: 0;
+	margin:0;
+}
+body{
+	font: 15px Arial, Helvetica, sans-serif;
+	
+}
+.bg{
+width: 100%;
+margin:0 auto;
+opacity: 0.7;
+}
+.header{
+	background: url(../images/header.png) no-repeat center center;
+	background-size: 100%;
+}
+
+.header_content{
+	padding-top: 250px;
+	padding-bottom: 12%;
+	margin-left:0px;
+}
+h1{
+	color: #2c3e50;
+	font-size: 70px;
+	margin-left: 100px;
+	margin-bottom: 30px;
+}
+.specialization{
+	margin-bottom: 50px;
+	font-size: 24px;
+	color:#A29A9A;
+	margin-left: 450px;
+}
+.btn, .btn_left{
+	padding: 10px;
+	text-decoration: none;
+	border:#3c3636 1px solid;
+	border-radius: 5px;
+	font-size: 20px;
+	color: #3c3636;
+	margin: 10px;
+}
+.btn_left{
+	margin-left: 430px;
+}
+.btn:hover, .btn_left:hover, .download .btn:hover{
+	background: #2c3e50;
+	color: #f3f3f3;
+}
+/*-----NAV_BAR START-----*/
+*{
+  padding:0;
+  margin:0;
+}
+.nav{
+	color: #f3f3f3;
+	/*position: fixed;
+	top: 0;
+	width: 100%;*/
+  
+  background: #2c3e50;
+}
+.nav_left{
+	width: 30%;
+	float: left;
+	background: #2c3e50;
+   
+}
+a{
+	text-decoration: none;
+}
+.nav_name{
+	padding: 20px 0 20px 90px;
+	color: #fff;
+}
+.nav_bar{
+	width: 70%;
+	float: left;
+	background: #2c3e50;
+  
+}
+.fa-bars{
+	font-size: 20px;
+}
+.menu{
+  display:none;
+}
+ul li a{
+	display: inline-block;
+	padding: 20px;
+	color: #fff;
+   background: #2c3e50;
+}
+ul li {
+	display: inline-block;
+}
+ul{
+  margin:0;
+}
+li a:hover{
+	color: #DE8A1F;
+}
+/*-----------------------------------------------------*/
+
+.dropdown li { 
+  position: relative;
+}
+
+ ul.dropdown, ul.dropdown-inside {
+ list-style: none;
+ padding: 0;
+ }
+ ul.dropdown-inside {
+ display: none;
+ }
+ ul.dropdown li.dropdown-top {
+ display: inline;
+ float: left;
+ margin: 0 1px 0 0;
+ }
+
+
+ /*ul.dropdown li.dropdown-top:hover .dropdown-inside  {
+ display: block;
+ left:0;
+ transition: 0.1s;
+ }*/
+ ul.dropdown .dropdown-inside { background: #fff; }
+ ul.dropdown .dropdown-inside a:hover { background: #eaeaea;; }
+ ul.dropdown .dropdown-inside li{
+  display:block;
+ }
+
+li ul li a{
+ display: inline-block;
+ padding: 20px 0 20px 100px;
+ width:805px;
+ text-align:left;
+ color: #fff;
+  
+}
+.nav.sticky {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+opacity: 0.6;
+transition: all 1.6s ease;
+}
+
+/*-----NAV_BAR FINISH-----*/
+h2{
+	padding-top:65px;
+	margin-top: 120px;
+	text-align: center;
+	font-size: 28px;
+	color: #2c3e50;
+}
+.bdr{
+	border-bottom: 4px solid #DE8A1F;
+	margin:20px 44% 100px 44%;
+}
+.photo{
+	text-align: center;
+}
+.i_am{
+	border-radius: 50%;
+}
+.about_text{
+	text-align: center;
+	margin: 30px 20% 0 20%;
+	color:#a29a9a
+} 
+.download {
+	text-align: center;
+	margin: 40px 0;
+	
+}
+.download .btn{
+	font-size: 15px;
+	color:#a29a9a;
+	padding: 8px;
+	border:#a29a9a 1px solid;
+}
+.blocks{
+	height: 500px;
+}
+.block{
+	float: left;
+	width: 25%;
+	text-align: center;
+	padding: 40px 0;
+	background-image: url('../images/portfolio_photo.png') no-repeat;
+}
+.search{
+font-size: 25px;
+color: #DE8A1F;
+opacity: 1;
+width: 100%;
+margin-top: -120px;
+}
+.my_job{
+
+}
+/*.my_job:hover{
+	transition: all 0.6s ease-out;
+	transform: scale(1.2);
+	opacity: 1.5;
+}*/
+.search:hover{
+	transition: all 0.4s ease-out;
+}
+.contact{
+	background: url('../images/contact-bg.png') no-repeat center center;
+	background-size: 100%;
+	height: 500px;
+}
+h3{
+	padding-top:50px;
+	text-align: center;
+	font-size: 28px;
+	color: #fff;
+}
+.c_block{
+	width:25%;
+	float: left;
+}
+.contact_block{
+	width: 50%;
+	float: left;
+	color: #fff;
+	text-align: center;
+}
+.contacts-block{
+	margin-top: 50px;
+}
+.contacts{
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+.contact_fount{
+	font-size: 30px;
+}
+.soc_set{
+	padding-top: 100px;
+	position: relative;
+	bottom: 0;
+}
+.soc_set a{
+	text-decoration: none;
+	color: #fff;
+	margin: 0 10px;
+}
+.soc_set a:hover{
+	color: #DE8A1F;
+	transition: all 0.7s ease;
+}
+.block_img{
+	background: #4A4848;
+}
+.my_jobs_photo{
+	width: 30%;
+	height: auto;
+}
+.footer{
+	padding: 30px 0 25px 0;
+	background:#2c3e50 ;
+	color:#ddd;
+	text-align: center;
+	font-size: 14px;
+}
+.copyright a{
+	color: #fff;
+}
+.copyright a:hover{
+	color: #DE8A1F;
+}
+@media screen and (max-width:1062px) {
+ .header_content{
+	padding-bottom: 10%;}
+ .block{
+	width: 50%;
+	padding: 8% 0;}	
+ .blocks{
+	padding-bottom: 190px;}
+ h3{
+	margin-top: 120px;}
+}
+
+@media screen and (max-width:970px) {
+ .header_content{
+	padding-top: 20%;}
+ h1{
+	font-size: 50px;}
+}
+
+@media screen and (max-width:805px) {
+ h3{
+	padding-top:50px;
+	margin-top: 0;}
+ h1{
+	font-size: 40px;}
+ .specialization{
+	margin-left: 300px;}
+ .btn_left{
+	margin-left: 280px;}
+ .contact{
+	height: 450px;}
+ .c_block{
+	width:8%;}
+ .contact_block{
+	width: 84%;}
+ .blocks{
+	padding-bottom: 230px;}
+ .nav_left{
+	display:none;}
+ .no_see{
+    display:none;}
+ .nav_bar{
+	width: 100%;}
+ .menu{
+  display:block;}
+}
+
+@media screen and (max-width:690px) {
+ .header_content{
+	padding-top: 9%;}
+ .specialization{
+	margin-left: 230px;}
+ .btn_left{
+	margin-left: 150px;}
+ .blocks{
+	padding-bottom: 200px;}
+ .contact{
+	height: 412px;}
+ h3{
+	padding-top:10px;}
+ li ul li a{
+    width:690px;}
+}
+
+@media screen and (max-width:605px) {
+ .blocks{
+	padding-bottom: 900px;}
+ .contact{
+	height: 325px;}
+ h3{
+	padding-top:10px;}
+ .bdr{
+	margin:20px 44% 25px 44%;}
+ .soc_set{
+	padding-top: 88px;}
+ .block{
+	width: 100%;
+	float: none;}
+ .specialization{
+	margin-left: 120px;}
+ .c_block{
+	width:8%;}
+ .contact_block{
+	width: 84%;}
+ li ul li a{
+    width:605px;}
+}
+
+@media screen and (max-width:510px) {
+ .nav_name{
+	padding: 20px 0 20px 90px;
+	color: #fff;}
+ .header_content {
+    padding-top: 9%;}
+ h1 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-left: 0px; 
+    margin-bottom: 8px;}
+ .btn, .btn_left {
+    margin: 3%;}
+ .specialization {
+    margin-left: 16%;
+    margin-bottom: 25px;
+    font-size: 18px;}
+ .contact {
+    background-size: cover;}
+ .c_block {
+    width: 0%;}
+ .contact_block{
+	width: 100%;}
+ .contacts {
+ 	font-size: 12px;}
+}
+
+#my_portfolio{
+	background-attachment: fixed;
+	background-image: url(../images/portfolio-bg.jpg);
+	background-size: cover;
+}
+
+
+
